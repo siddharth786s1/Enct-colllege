@@ -1,0 +1,9 @@
+com/enct/college/servlet/AcademicsServlet.class
+com/enct/college/servlet/AdmissionsServlet.class
+com/enct/college/servlet/NewsEventsServlet.class
+com/enct/college/servlet/AlumniServlet.class
+com/enct/college/servlet/AboutServlet.class
+com/enct/college/servlet/ContactServlet.class
+com/enct/college/servlet/FacultyServlet.class
+com/enct/college/servlet/StudentLifeServlet.class
+com/enct/college/servlet/HomeServlet.class

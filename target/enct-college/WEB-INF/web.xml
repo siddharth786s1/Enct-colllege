@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    
+    <display-name>ENCT College Website</display-name>
+    
+    <!-- Welcome File List -->
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    
+    <!-- Servlet Definitions -->
+    <servlet>
+        <servlet-name>HomeServlet</servlet-name>
+        <servlet-class>com.enct.college.servlet.HomeServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AboutServlet</servlet-name>
+        <servlet-class>com.enct.college.servlet.AboutServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AcademicsServlet</servlet-name>
+        <servlet-class>com.enct.college.servlet.AcademicsServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AdmissionsServlet</servlet-name>
+        <servlet-class>com.enct.college.servlet.AdmissionsServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>StudentLifeServlet</servlet-name>
+        <servlet-class>com.enct.college.servlet.StudentLifeServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>FacultyServlet</servlet-name>
+        <servlet-class>com.enct.college.servlet.FacultyServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>NewsEventsServlet</servlet-name>
+        <servlet-class>com.enct.college.servlet.NewsEventsServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AlumniServlet</servlet-name>
+        <servlet-class>com.enct.college.servlet.AlumniServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ContactServlet</servlet-name>
+        <servlet-class>com.enct.college.servlet.ContactServlet</servlet-class>
+    </servlet>
+    
+    <!-- Servlet Mappings -->
+    <servlet-mapping>
+        <servlet-name>HomeServlet</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AboutServlet</servlet-name>
+        <url-pattern>/about</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AcademicsServlet</servlet-name>
+        <url-pattern>/academics</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AdmissionsServlet</servlet-name>
+        <url-pattern>/admissions</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>StudentLifeServlet</servlet-name>
+        <url-pattern>/student-life</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FacultyServlet</servlet-name>
+        <url-pattern>/faculty</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>NewsEventsServlet</servlet-name>
+        <url-pattern>/news-events</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AlumniServlet</servlet-name>
+        <url-pattern>/alumni</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ContactServlet</servlet-name>
+        <url-pattern>/contact</url-pattern>
+    </servlet-mapping>
+</web-app>
